@@ -1,5 +1,5 @@
 import React from 'react'
-import tecno from '../../imagess/shopearn.png'
+import tecno from '../../images/shopearn.png'
 
 const Sell = () => {
   return (
@@ -9,9 +9,6 @@ const Sell = () => {
                 <div className='bg-yellow-600 p-32 rounded'>
                     <div className='flex'>
                         <h1 className='text-6xl text-white font-extrabold'>Sell on Reflex</h1>
-                        <div>
-                            <img className='w-20'/>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -31,7 +28,7 @@ const Sell = () => {
             <div className='bg-white mt-3 rounded p-5'>
                 <h2 className='text-center font-semibold'>Teatimonial</h2>
                 <div className='flex space-x-14'>
-                    <div className=''>
+                    <div>
                         <img src={tecno} alt="Tecno" className='w-96'/>
                     </div>
                     <small className='mt-20 text-sm'>sell on jumia has been very rewarding with higher turn over and good profit</small>
@@ -40,9 +37,6 @@ const Sell = () => {
             <div className='bg-white mt-3 rounded'>
                 <h2 className='text-center font-semibold'>How it Works</h2>
                 <div className='flex space-x-5'>
-                    <div>
-                        <img />
-                    </div>
                     <div className='flex flex-col'>
                         <small className='font-medium'>step 1: Register under 5 minutes</small>
                         <small className='mt-3'>fill the registration form</small>
@@ -50,38 +44,18 @@ const Sell = () => {
                         <small>(a) buisness registration</small>
                         <small>(b) bank accouounts details</small>
                     </div>
-                    <div>
-                        <img />
-                    </div>
                     <div className='flex flex-col'>
                         <small className='font-medium'>step 2: Become an ecommerce expert</small>
                         <small className='mt-3'>complete the dedicated new seller<br></br> traning</small>
                         <small>activate your sellercenter account to manage<br></br> your shop</small>
                     </div>
-                    <div>
-                        <img />
-                    </div>
                     <div className='flex flex-col'>
                         <small className='font-medium'>step 3: List your products and sell</small>
                         <small className='mt-3'>upload your best selling products<br></br> and start selling</small>
                     </div>
-                    <div>
-                        <img />
-                    </div>
                     <div className='flex flex-col'>
                         <small className='font-medium'>step 4: Nenefit from our promotion and marketing</small>
                         <small className='mt-3'>get visibility from our campaign/promioitions<br></br> and insight on best selliung products.</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <h3></h3>
-                            <h4></h4>
-                        </div>
-                        <div></div>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Card = ({relatedItems, setAddedItem}) => {
   return (
     <div className='bg-white mt-5 mr-8 rounded p-4 pl-1 pt-3'>
       <h1 className='pl-6'>Top Selling items</h1>
-      <div className=''>
+      <div>
         <ul className='flex justify-around'>
          {
            relatedItems.map((item, index) => {

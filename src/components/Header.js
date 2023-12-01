@@ -1,12 +1,9 @@
 import {useState} from 'react'
 import Navbar from '../components/Navbar'
 import {Link} from 'react-router-dom'
-import {BiSearchAlt2} from 'react-icons/bi'
 
 const Header = ({checkoutItem}) => {
   const [searchData, setSearchData] = useState({search: ""})
-
-  // const [isNavShowing, setIsNavshowing] = useState(false)
 
   function handleChange(event) {
     const {name, value} = event.target
@@ -19,9 +16,9 @@ const Header = ({checkoutItem}) => {
   return (
     <section className='flex pl-60 pt-3 p-3 w-full bg-white '>
         <div className='mt-4 text-2xl mr-32 font-bold'>
-           <Link to='/'>JUMIA</Link>
+           <Link to='/'>REFLEX</Link>
         </div>
-        <div className=''>
+        <div>
              <input
                  type="text"
                  placeholder="Search products,brands and categories"

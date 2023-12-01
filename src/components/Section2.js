@@ -12,7 +12,7 @@ const Section2 = ({setAddedItem}) => {
   return (
     <div className='bg-white mt-5 mr-6 rounded p-4 pl-1 pt-3'>
       <h1 className='pl-6 font-semibold text-lg pb-3'>Top Selling items</h1>
-      <div className=''>
+      <div>
         <ul className='flex justify-around'>
          {
            cards.map((item, index) => {

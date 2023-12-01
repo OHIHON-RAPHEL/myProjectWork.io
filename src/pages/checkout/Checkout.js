@@ -13,8 +13,7 @@ const Checkout = ({addedItem, setCheckoutItem}) => {
     return (<div>
       EMPTY STATE
     </div>)
-  }
-  
+  } 
 
   return (
     <main className='bg-slate-100 pt-10 pb-5'>

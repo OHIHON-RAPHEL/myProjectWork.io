@@ -5,7 +5,6 @@ import {useState} from 'react'
 import Banner from './components/Banner'
 import Row from './components/Row'
 import Header from './components/Header'
-// import Main from './components/Main'
 import Cart from './pages/cart/Cart'
 import Jumia from './pages/jumia/Jumia'
 import Accounts from './pages/accounts/Accounts'
@@ -18,11 +17,9 @@ import Placeorder from './pages/placeorder/Placeorder'
 import Paymentoption from './pages/paymentoption/Paymentoption'
 import Trackorder from './pages/trackorder/Trackorder'
 import Cancelorder from './pages/cancelorder/Cancelorder'
-import Returnrefund from './pages/returnrefund/Returnrefund'
-
-
+import Sell from './pages/sell/Sell'
+import Return from './pages/return/Return'
 import Footer from './components/Footer'
-
 
 
 const App = () => {
@@ -47,7 +44,8 @@ const App = () => {
         <Route path='paymentoption' element={<Paymentoption/>}/>
         <Route path='trackorder' element={<Trackorder/>}/>
         <Route path='cancelorder' element={<Cancelorder/>}/>
-        <Route path='returnrefund' element={<Returnrefund/>}/>
+        <Route path='return' element={<Return/>}/>
+        <Route path='sell' element={<Sell/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

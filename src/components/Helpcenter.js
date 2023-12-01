@@ -53,68 +53,68 @@ const Helpcenter = () => {
                     <button>Accont</button>
                   </div>
                   <div>
-                    <button>Jumia Express</button>
+                    <button>Reflex Express</button>
                   </div>
                   <div>
-                    <button>Sell on Jumia</button>
+                    <button>Sell on Reflex</button>
                   </div>
                   <div>
-                    <button>Jumia Global</button>
+                    <button>Reflex Global</button>
                   </div>
                 </div>
                 <div className='bg-white w-3/5 rounded-md p-5'>
                     <div className='border-2 border-slate-400 rounded-md pl-4 space-y-5 font-semibold p-3 pb-5'>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1>What payments method are accepted on jumia</h1>
+                            <h1>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1>What payments method are accepted on jumia</h1>
+                            <h1>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                         <div>
                             <small>payments</small>
-                            <h1 className='text-lg'>What payments method are accepted on jumia</h1>
+                            <h1 className='text-lg'>What payments method are accepted on reflex</h1>
                         </div>
                     </div>
                 </div>

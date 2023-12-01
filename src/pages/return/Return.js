@@ -1,7 +1,7 @@
 import React from 'react'
 import Helpcenter from '../../components/Helpcenter'
 
-const Returnrefund = () => {
+const Return = () => {
   return (
     <>
       <Helpcenter />
@@ -9,4 +9,4 @@ const Returnrefund = () => {
   )
 }
 
-export default Returnrefund
+export default Return

@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../images/banner.gif'
-import {AiFillStar} from 'react-icons/ai'
 
 const Banner = () => {
   return (

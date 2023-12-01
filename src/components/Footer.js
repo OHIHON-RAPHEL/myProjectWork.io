@@ -23,16 +23,16 @@ const Footer = () => {
       <div className='bg-black pt-6 p-7 text-white'>
         <div className='flex pl-36 space-x-44'>
           <div className='text-4xl font-bold'>
-            <h1>JUMIA</h1>
+            <h1>REFLEX</h1>
           </div>
-          <div clasName=''>
-            <div className=''>
-              <div className='font-bold'>NEW TO JUMIA?</div>
+          <div>
+            <div>
+              <div className='font-bold'>NEW TO REFLEX?</div>
               subscribe to our new letter to get updates on our lattest
             </div>
             <form>
               <div className='flex mt-5'>
-                <div className=''>
+                <div>
                   <input
                      type="text"
                      placeholder="Email"
@@ -51,8 +51,8 @@ const Footer = () => {
           </div>
           <div>
             <div>
-              <div className=''>
-                <div className='font-bold'>DOWNLOAD JUMIA FREE APP</div>
+              <div>
+                <div className='font-bold'>DOWNLOAD REFLEX FREE APP</div>
                 Get acces to Exclusive offers
               </div>
             </div>
@@ -72,26 +72,22 @@ const Footer = () => {
             <Link>Chat with us</Link>
         </article>
         <article className='flex flex-col items-start gap-1 w-32'>
-             <h4 className='mb-4 font-bold'>ABOUT JUMIA</h4>
+             <h4 className='mb-4 font-bold'>ABOUT REFLEX</h4>
              <Link>About us</Link>
              <Link>Jumia careers</Link>
              <Link>Jumia express</Link>
              <Link>Terms and condition</Link>
              <Link>Private notice</Link>
-             <Link>nwwlmlmlwml</Link>
-             <Link>Chat with us</Link>
-             <Link>Chat with us</Link>
-             <Link>Chat with us</Link>
         </article>
         <article className='flex flex-col items-start gap-1'>
-              <h4 className='mb-4 font-bold'>MAKE MONEY WITH JUMIA</h4>
+              <h4 className='mb-4 font-bold'>MAKE MONEY WITH REFLEX</h4>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
         </article>
         <article className='flex flex-col items-start gap-1'>
-              <h4 className='mb-4 font-bold'>JUMIA INTERNATIONAL</h4>
+              <h4 className='mb-4 font-bold'>REFLEX INTERNATIONAL</h4>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
@@ -131,4 +127,3 @@ const Footer = () => {
 }
 
 export default Footer
-

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 const Row = () => {
   return (
     <div className='flex bg-slate-200 p-2 pl-64'>
-        <div className=''>
+        <div>
             <Link to="/sell" className='text-sm text-amber-700'>Sell on reflex</Link>
         </div>
         <div className='flex space-x-6 pl-80 font-semibold'>
