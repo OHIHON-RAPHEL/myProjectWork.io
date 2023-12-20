@@ -1,17 +1,15 @@
-import {useState, useEffect} from 'react'
+import { useState } from 'react'
 import Navbar from '../components/Navbar'
 import {Link} from 'react-router-dom'
 import { useNavigate } from "react-router-dom"
 
-const Header = ({checkoutItem, setCatelog}) => {
-  const [searchQuery, setSearchQuery] = useState('');
+const Header = ({ checkoutItem }) => {
+  const [searchValue, setSearchValue] = useState('');
 
-  const navigate = useNavigate()
-  const addItemToCartAndNavigateToCatelogPage = (item) => {
-    setCatelog(catelog.filter(product =>
-      product.name.toLowerCase().includes(searchQuery.toLowerCase()))
-    )
-    navigate("/catelog")
+  const navigate = useNavigate();
+  
+  const handleSearch = () => {
+    navigate(`/catelog?query=${searchValue}`);
   }
   
 
@@ -25,11 +23,11 @@ const Header = ({checkoutItem, setCatelog}) => {
                  type="text"
                  placeholder="Search products,brands and categories"
                  name="search"
-                 value={searchQuery}
+                 value={searchValue}
                  className='box-border rounded p-3 m-2 w-[32rem]'
-                 onChange={(e) => setSearchQuery(e.target.value)}
+                 onChange={(e) => setSearchValue(e.target.value)}
              />
-             <button onClick={() => addItemToCartAndNavigateToCatelogPage()} className='bg-yellow-600 text-white p-2 rounded'>SEARCH</button>
+             <button onClick={handleSearch} className='bg-yellow-600 text-white p-2 rounded'>SEARCH</button>
         </div>
         <Navbar checkoutItem={checkoutItem}/>
     </section>

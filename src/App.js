@@ -27,12 +27,12 @@ const App = () => {
   const [relatedItems, setRelatedItems] = useState()
   const [addedItem, setAddedItem] = useState()
   const [checkoutItem, setCheckoutItem] = useState([])
-  const [catelog, setCatelog] = useState()
+
   return (
     <BrowserRouter>
       <Banner />
       <Row />
-      <Header checkoutItem={checkoutItem} setCatelog={setCatelog} />
+      <Header checkoutItem={checkoutItem} />
       <Routes>
         <Route index element={<Jumia setRelatedItems={setRelatedItems} setAddedItem={setAddedItem}/>}/>
         <Route path='cart' element={<Cart checkoutItem={checkoutItem} setCheckoutItem={setCheckoutItem}/>}/>
@@ -41,7 +41,7 @@ const App = () => {
         <Route path='product' element={<Product relatedItems={relatedItems} setAddedItem={setAddedItem}/>}/>
         <Route path='checkout' element={<Checkout addedItem={addedItem} setCheckoutItem={setCheckoutItem}/>}/>
         <Route path='market' element={<Market relatedItems={relatedItems}/>}/>
-        <Route path='catelog' element={<Catelog catelog={catelog}/>}/>
+        <Route path='catelog' element={<Catelog />}/>
         <Route path='help' element={<Help/>}/>
         <Route path='placeorder' element={<Placeorder/>}/>
         <Route path='paymentoption' element={<Paymentoption/>}/>
