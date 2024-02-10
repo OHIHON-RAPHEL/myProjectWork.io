@@ -13,9 +13,9 @@ import Product from './pages/product/Product'
 import Checkout from './pages/checkout/Checkout'
 import Market from './pages/market/Market'
 import Help from './pages/help/Help'
-import Placeorder from './pages/placeorder/Placeorder'
-import Paymentoption from './pages/paymentoption/Paymentoption'
-import Trackorder from './pages/trackorder/Trackorder'
+import PlaceOrder from './pages/placeorder/PlaceOrder'
+import PaymentOption from './pages/paymentoption/PaymentOption'
+import TrackOrder from './pages/trackorder/TrackOrder'
 import Cancelorder from './pages/cancelorder/Cancelorder'
 import Sell from './pages/sell/Sell'
 import Catelog from './pages/catelog/Catelog'
@@ -43,9 +43,9 @@ const App = () => {
         <Route path='market' element={<Market relatedItems={relatedItems}/>}/>
         <Route path='catelog' element={<Catelog />}/>
         <Route path='help' element={<Help/>}/>
-        <Route path='placeorder' element={<Placeorder/>}/>
-        <Route path='paymentoption' element={<Paymentoption/>}/>
-        <Route path='trackorder' element={<Trackorder/>}/>
+        <Route path='placeorder' element={<PlaceOrder/>}/>
+        <Route path='paymentOption' element={<PaymentOption/>}/>
+        <Route path='trackOrder' element={<TrackOrder/>}/>
         <Route path='cancelorder' element={<Cancelorder/>}/>
         <Route path='return' element={<Return/>}/>
         <Route path='sell' element={<Sell/>}/>

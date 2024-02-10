@@ -17,7 +17,7 @@ const Card = ({relatedItems, setAddedItem}) => {
              return (
                <li onClick={() => addItemToCartAndNavigateToCheckoutPage(item)} key={index} className=''>
                     <div className='bg-white rounded-md hover:bg-slate-100'>
-                    <img src={item.picture} className='w-44 rounded'/>
+                    <img src={item.picture} alt="picture" className='w-44 rounded'/>
                     <p className='text-center text-sm mt-2'>{item.title}</p>
                     <h4>{item.amount}</h4>
                     <h4>{item.amtcancled}</h4>

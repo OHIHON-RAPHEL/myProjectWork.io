@@ -17,7 +17,7 @@ const Section = ({setRelatedItems}) => {
              return (
                <li onClick={() => addItemToCartAndNavigateToCheckoutPage(item)} key={index} className=''>
                     <div className='bg-white rounded-md hover:bg-slate-100'>
-                    <img src={item.image} className='w-44 rounded'/>
+                    <img src={item.image} alt="shirt" className='w-44 rounded'/>
                     <p className='text-center text-sm mt-2'>{item.title}</p>
                     </div>
                </li>
