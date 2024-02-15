@@ -9,6 +9,7 @@ const Content = ({item, setCheckoutItem}) => {
       })
     })
   }
+  
   return (
     <div className='bg-slate-100 flex justify-center'>
       <div className='flex space-x-8'>
