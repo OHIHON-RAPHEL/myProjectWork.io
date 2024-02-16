@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <footer className='bg-zinc-600 text-white h-screen'>
       <div className='bg-black pt-6 p-7 text-white'>
-        <div className='flex pl-36 space-x-44'>
+        <div className='flex justify-evenly'>
           <div className='text-4xl font-bold'>
             <h1>REFLEX</h1>
           </div>
@@ -30,8 +30,8 @@ const Footer = () => {
               <div className='font-bold'>NEW TO REFLEX?</div>
               subscribe to our new letter to get updates on our lattest
             </div>
-            <form>
-              <div className='flex mt-5'>
+            
+              <form className='flex mt-5'>
                 <div>
                   <input
                      type="text"
@@ -46,8 +46,8 @@ const Footer = () => {
                   <button className='bg-yellow-400 p-3 w-24 rounded'>MALE</button>
                   <button className='bg-yellow-400 p-3 w-24 rounded'>FEMALE</button>
                 </div>
-              </div>
-            </form>
+              </form>
+            
           </div>
           <div>
             <div>

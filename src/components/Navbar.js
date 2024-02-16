@@ -16,7 +16,7 @@ const Navbar = ({checkoutItem}) => {
   }
 
   return (
-    <div className='flex space-x-8 relative mt-3 text-left pl-4'>
+    <div className='flex space-x-8 relative mt-3 '>
         <div>
           <button onClick={toggleFirst} className='rounded-md bg-gray-50 p-2 w-24 font-semibold text-gray-900 hover:bg-gray-400'>Account</button>
         </div>
