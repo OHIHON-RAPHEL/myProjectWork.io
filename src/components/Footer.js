@@ -21,57 +21,51 @@ const Footer = () => {
   return (
     <footer className='bg-zinc-600 text-white h-screen'>
       <div className='bg-black pt-6 p-7 text-white'>
-        <div className='flex justify-evenly'>
+        <div className='flex justify-center space-x-10'>
           <div className='text-4xl font-bold'>
             <h1>REFLEX</h1>
           </div>
           <div>
-            <div>
-              <div className='font-bold'>NEW TO REFLEX?</div>
-              subscribe to our new letter to get updates on our lattest
-            </div>
-            
-              <form className='flex mt-5'>
-                <div>
-                  <input
-                     type="text"
-                     placeholder="Email"
-                     name="email"
-                     value={emailData.email}
-                     className='p-4 w-80 rounded indent-1 text-black'
-                     onChange={handleChange}
-                  />
-                </div>
-                <div className='ml-4 flex space-x-4'>
-                  <button className='bg-yellow-400 p-3 w-24 rounded'>MALE</button>
-                  <button className='bg-yellow-400 p-3 w-24 rounded'>FEMALE</button>
-                </div>
-              </form>
-            
+            <div className='font-bold'>NEW TO REFLEX?</div>
+            subscribe to our new letter to get updates on our lattest
           </div>
+          <form className='flex mt-5'>
+             <div>
+                <input
+                   type="text"
+                   placeholder="Email"
+                   name="email"
+                   value={emailData.email}
+                   className='p-4 w-80 rounded indent-1 text-black'
+                   onChange={handleChange}
+                />
+              </div>
+              <div className='ml-4 flex space-x-4'>
+                <button className='bg-yellow-400 p-3 w-24 rounded'>MALE</button>
+                <button className='bg-yellow-400 p-3 w-24 rounded'>FEMALE</button>
+              </div>
+          </form> 
           <div>
             <div>
-              <div>
-                <div className='font-bold'>DOWNLOAD REFLEX FREE APP</div>
-                Get acces to Exclusive offers
-              </div>
+              <h1 className='font-bold'>DOWNLOAD REFLEX FREE APP</h1>
+              Get acces to Exclusive offers
             </div>
             <div>
-              <a>App Store</a>
-              <a>Google Play</a>
+              <a href="https://appstore.com" target="_blank" rel='norferrer noopener'>App Store</a>
+              <a href="https://googleplay.com" target="_blank" rel='norferrer noopener'>Google Play</a>
             </div>
           </div>
         </div>
       </div>
-      <div className='pt-5 grid grid-cols-4 pl-44'>
-        <article className='flex flex-col items-start gap-1'>
+      <div className='pt-5 flex justify-around '>
+        <article className='flex flex-col gap-1'>
             <h4 className='mb-4 font-bold'>NEED HELP?</h4>
             <Link>Chat with us</Link>
             <Link>Help Center</Link>
             <Link>Contact Us</Link>
             <Link>Chat with us</Link>
         </article>
-        <article className='flex flex-col items-start gap-1 w-32'>
+        <article className='flex flex-col gap-1 '>
              <h4 className='mb-4 font-bold'>ABOUT REFLEX</h4>
              <Link>About us</Link>
              <Link>Jumia careers</Link>
@@ -79,21 +73,21 @@ const Footer = () => {
              <Link>Terms and condition</Link>
              <Link>Private notice</Link>
         </article>
-        <article className='flex flex-col items-start gap-1'>
+        <article className='flex flex-col gap-1'>
               <h4 className='mb-4 font-bold'>MAKE MONEY WITH REFLEX</h4>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
         </article>
-        <article className='flex flex-col items-start gap-1'>
+        <article className='flex flex-col gap-1'>
               <h4 className='mb-4 font-bold'>REFLEX INTERNATIONAL</h4>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
         </article>
       </div>
-      <div className='pl-44 pt-5 grid grid-cols-2'>
+      <div className='flex pt-5 justify-around'>
         <article className='font-bold'>
            <h4>JOIN US ON</h4>
            <div className='flex gap-4 items-center mt-6 text-2xl'>
