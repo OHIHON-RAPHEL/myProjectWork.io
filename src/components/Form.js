@@ -31,7 +31,7 @@ const Form = () => {
           <button onClick={handleSubmit} className='bg-yellow-400 border-none p-4 text-center no-underline inline-block text-base cursor-pointer rounded mt-4'>Continue</button>
           <button onClick={handleSubmit} className='bg-yellow-400 border-none p-4 text-center no-underline inline-block text-base cursor-pointer mt-20 rounded'>Log in With Facebook</button>
           <p className='font-medium'>For further support you may visit the Help Center or contact our<br></br> customer services team</p>
-          <h1 className='text-4xl font-bold pl-44'>JUMIA</h1>
+          <h1 className='text-4xl font-bold pl-44'>REFLEX</h1>
        </div>
     </div> 
   )
