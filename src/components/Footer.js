@@ -79,6 +79,7 @@ const Footer = () => {
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
               <Link>Chat with us</Link>
+              
         </article>
         <article className='flex flex-col gap-1'>
               <h4 className='mb-4 font-bold'>REFLEX INTERNATIONAL</h4>
