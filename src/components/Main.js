@@ -7,6 +7,7 @@ import power from '../images/power.gif'
 import shop from '../images/shopearn.png'
 import Listbar from '../components/Listbar'
 
+
 const Main = ({setRelatedItems, setAddedItem}) => {
   return (
     <div className=' bg-yellow-600 flex justify-center h-fit pt-3 pb-10'>
