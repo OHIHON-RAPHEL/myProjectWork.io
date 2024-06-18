@@ -5,6 +5,7 @@ import {GrYoutube} from 'react-icons/gr'
 import {TiSocialInstagram} from 'react-icons/ti'
 import {BsTwitter} from 'react-icons/bs'
 
+
 const Footer = () => {
   const [emailData, setEmailData] = useState({
     email: ""
