@@ -43,5 +43,3 @@ const Main = ({setRelatedItems, setAddedItem}) => {
 }
 
 export default Main
-
-exponetal in staus 

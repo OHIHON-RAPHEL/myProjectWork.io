@@ -28,7 +28,7 @@ const Navbar = ({checkoutItem}) => {
           <div className="space-y-2">
             <Link to="/account" className='text-gray-700 block px-4 py-2 text-sm'>Accounts</Link>
             <Link to="/orders" className='text-gray-700 block px-4 py-2 text-sm'>Orders</Link>
-            <Link to="/saveditems" className='text-gray-700 block px-4 py-2 text-sm'>Saveditems</Link>
+            <Link to="/saveditems" className='text-gray-700 block px-text-sm'>Saveditems</Link>
           </div>
         </div>)}
 
