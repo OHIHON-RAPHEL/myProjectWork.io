@@ -61,4 +61,5 @@ const Content = ({item, setCheckoutItem}) => {
   )
 }
 
+
 export default Content
