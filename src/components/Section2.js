@@ -52,7 +52,7 @@ const Section2 = ({ setAddedItem }) => {
   return (
     <div className="bg-white mt-5 mr-6 rounded p-4 pt-3 w-full">
       <h1 className="pl-4 font-semibold text-lg pb-3">Top Selling Items</h1>
-      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 px-2">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 px-2">
         {cards.map((item, index) => (
           <li
             onClick={() => addItemToCartAndNavigateToCheckoutPage(item)}

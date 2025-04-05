@@ -46,7 +46,7 @@ const Section = ({ setRelatedItems }) => {
 
   return (
     <div className="bg-white mt-5 mr-6 rounded p-5 pt-3 w-full">
-      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
         {skills.map((item, index) => (
           <li
             onClick={() => addItemToCartAndNavigateToCheckoutPage(item)}
