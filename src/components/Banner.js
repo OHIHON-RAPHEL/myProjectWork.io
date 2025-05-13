@@ -17,6 +17,7 @@ const Banner = () => {
             className="w-full h-auto object-contain"
           />
         </a>
+        
       </div>
     </div>
     
