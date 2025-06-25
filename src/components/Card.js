@@ -9,6 +9,7 @@ const Card = ({ relatedItems, setAddedItem }) => {
     navigate("/checkout")
   };
   
+  
 
   return (
     <div className='bg-white mt-5 mr-8 rounded p-4 pl-1 pt-3'>
