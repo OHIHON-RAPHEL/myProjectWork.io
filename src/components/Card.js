@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom"
 const Card = ({ relatedItems, setAddedItem }) => {
   const navigate = useNavigate()
 
+  
+
   const addItemToCartAndNavigateToCheckoutPage = (item) => {
     setAddedItem(item)
     navigate("/checkout")
