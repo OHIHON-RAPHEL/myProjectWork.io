@@ -28,6 +28,7 @@ const Card = ({ relatedItems, setAddedItem }) => {
                     <img src={item.picture} alt="pics" className='w-full h-auto rounded mb-3'/>
                     <p className='text-center text-sm mt-2'>{item.title}</p>
                     <h4 className='text-center'>{item.amount}</h4>
+                    
                     <h4 className='text-center text-sm text-gray-500'>{item.amtcancled}</h4>
                   </div>
                 </li>
