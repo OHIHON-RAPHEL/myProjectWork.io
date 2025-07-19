@@ -39,6 +39,7 @@ const Card = ({ relatedItems, setAddedItem }) => {
         </ul>
       </div>
     </div>
+    
   )
 }
 
