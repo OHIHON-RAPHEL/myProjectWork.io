@@ -40,6 +40,7 @@ const Card = ({ relatedItems, setAddedItem }) => {
       </div>
     </div>
     
+    
   )
 }
 
