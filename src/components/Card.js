@@ -32,6 +32,7 @@ const Card = ({ relatedItems, setAddedItem }) => {
                     
                     <h4 className='text-center text-sm text-gray-500'>{item.amtcancled}</h4>
                   </div>
+                  
                 </li>
               )
             })
