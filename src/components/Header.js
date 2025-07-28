@@ -40,6 +40,7 @@ const Header = ({ checkoutItem }) => {
       {/* Navbar (e.g. Cart, User, etc.) */}
       <div className="w-full sm:w-auto">
         <Navbar checkoutItem={checkoutItem} />
+        
       </div>
     </section>
   );
