@@ -1,4 +1,8 @@
 
+
+
+
+
 import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import { Link, useNavigate } from 'react-router-dom';
@@ -6,6 +10,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const Header = ({ checkoutItem }) => {
   const [searchValue, setSearchValue] = useState('');
   const navigate = useNavigate();
+  
 
   const handleSearch = () => {
     if (searchValue.trim()) {
