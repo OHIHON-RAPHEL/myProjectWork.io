@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import Logo from '../images/banner.gif';
 
